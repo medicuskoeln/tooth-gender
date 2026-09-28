@@ -1,0 +1,10 @@
+# Python >= 3.9
+# Tip: replace with the exact versions used for the manuscript:
+#   pip freeze | grep -iE "pandas|numpy|scipy|statsmodels|matplotlib|python-docx|openpyxl"
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+python-docx>=1.1
+openpyxl>=3.1
