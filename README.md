@@ -2,8 +2,8 @@
 
 Analysis code for the manuscript:
 
-> **[TITLE OF THE MANUSCRIPT]**
-> [Authors]. *[Journal]*, [Year]. DOI: [to be added]
+> **Dental force and other intubation performance metrics during tracheal intubation: sex-related differences and the effect of videolaryngoscopy in a simulated airway model**
+> Katharina Hardt1*, Marc Schieren1, Jonas Weber1, Axel Schmutz2, Torsten Loop2, Manfred Staat3, Karl-Heinz Gatzweiler3, Frank Wappler1, Jerome Defosse1. *[Journal]*, [Year]. DOI: [to be added]
 
 All statistical analyses, tables and figures of the manuscript were produced with the Python scripts in this repository.
 
@@ -31,9 +31,9 @@ Main variables:
 | `Laryng_diff_1Mac_2Glide_3King_4CMAC` | Laryngoscope | 1 = Macintosh, 2 = GlideScope, 3 = King Vision, 4 = C-MAC |
 | `hyperanguliert` | Hyperangulated blade | 0 = no, 1 = yes |
 | `tubus` | Tube type | [coding] |
-| `res_11_max`, `res_12_max`, `res_21_max`, `res_22_max` | Maximum value per tooth (FDI 11, 12, 21, 22) | [unit] |
-| `res_max_alle_zaehne` | Maximum value across all teeth | [unit] |
-| `Intubationsdauer` | Intubation time | [unit] |
+| `res_11_max`, `res_12_max`, `res_21_max`, `res_22_max` | Maximum value per tooth (FDI 11, 12, 21, 22) | N |
+| `res_max_alle_zaehne` | Maximum value across all teeth | N |
+| `Intubationsdauer` | Intubation time | s |
 | `Sicht_Cormack` | Cormack–Lehane grade | 1–4 |
 | `BURP` | BURP manoeuvre applied | [coding] |
 | `Anz_*`, `*_kat` | Prior experience with devices (count / category) | – |
